@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient( to left, black,rgb(119, 43, 43));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenair{
+    width:90% ;
+    height: 640px;
+    background-image: linear-gradient( to right, rgba(100, 95, 95, 0.815) 30%,rgba(209, 20, 20, 0.63)),url(image/135993.jpg);
+    background-position: right;
+
+}
+.contenair:hover{
+    background-image: linear-gradient( to right, rgba(100, 95, 95, 0.815),transparent),url(image/135993.jpg);
+}
+header{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2{
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 40px;
+}
+ul{
+    width: 600px;
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+li{
+    color: aliceblue;
+    border: 3px solid transparent;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+
+
+.content{
+    margin: 10px;
+    margin-top: 140px;
+    width: 260px;
+}
+.content h1{
+    color: aliceblue;
+    font-size:90px;
+    text-transform: uppercase;
+
+}
+.content p {
+    width: 420px;
+    letter-spacing: 1px;
+    margin: 5px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.content button {
+    padding: 3px;
+    border: 3px solid transparent;
+  margin-top: 100px;
+    margin-left: 120px;
+    border-radius: 8px;
+    font-size: 30px;
+}
+.content button:hover, li:hover{
+    border: 3px solid white;
+    background-color: black;
+    color: aliceblue;
+
+}
